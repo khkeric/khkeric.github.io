@@ -7,4 +7,4 @@ var values = [
     , { name: '社工文憑', chi: 3, eng: 3, math: 2, gen: 2 }
 ];
 
-var hackerList = new List('course-list', options, values);
+var hackerList = new List('result-list', options, values);
