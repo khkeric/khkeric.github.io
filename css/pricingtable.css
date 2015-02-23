@@ -58,6 +58,7 @@
 }
 .price-table .last {
   border: 0;
+  font-size: 30px;
 }
 .price-table.featured {
   background: #18c7f9;
