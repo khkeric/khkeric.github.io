@@ -1,0 +1,17 @@
+<html>
+<head>
+<title>排除網頁統計</title>
+</head>
+<script>
+var runned = false;
+$( window ).scroll( function() {
+ if ( $( document ).scrollTop() >= 250 && runned == false ) {
+ ga('send', 'event', { eventCategory: 'Scrolled 250px', eventAction: 'Scroll' });
+ runned = true;
+ }
+});
+</script>
+<body onLoad="javascript:pageTracker._setVar('cookie_filter');">
+<h1>已成功設定本電腦/電話為希望音響工程管理員，網頁統計不會再計算你的瀏覽，直到你清除Cookie為止。</h1>
+</body>
+</html>

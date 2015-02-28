@@ -357,5 +357,14 @@ ga('create', 'UA-30983745-4', 'auto');
 ga('require', 'linkid', 'linkid.js');
 ga('send', 'pageview');
 </script>
+<script>
+var runned = false;
+$( window ).scroll( function() {
+ if ( $( document ).scrollTop() >= 250 && runned == false ) {
+ ga('send', 'event', { eventCategory: 'Scrolled 250px', eventAction: 'Scroll' });
+ runned = true;
+ }
+});
+</script>
 </body>
 </html>
