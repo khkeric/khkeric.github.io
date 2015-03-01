@@ -120,7 +120,7 @@ h6 {
     background-size: cover;
 }
 
-.banner, .banner2 h2 {
+.banner h2, .banner2 h2 {
     margin: 0;
     text-shadow: 2px 2px 3px rgba(0,0,0,0.6);
     font-size: 3em;
