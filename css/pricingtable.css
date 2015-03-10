@@ -61,13 +61,13 @@
   font-size: 30px;
 }
 .price-table.featured {
-  background: #18c7f9;
-  border: 1px solid #06bdf1;
+  background: #44546A;
+
   -webkit-box-shadow: 0px 15px 5px -8px rgba(0, 0, 0, 0.2);
   box-shadow: 0px 15px 5px -8px rgba(0, 0, 0, 0.2);
 }
 .price-table.featured li {
-  border-bottom: 1px dashed #06aad8;
+
   color: #fff;
 }
 .price-table.featured li.last {

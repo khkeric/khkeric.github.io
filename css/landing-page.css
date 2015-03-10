@@ -113,28 +113,28 @@ h6 {
     border-top: 3px solid #e7e7e7;
 }
 
-.banner {
+.banner-alt {
     padding: 100px 0;
     color: #f8f8f8;
     background: url(../img/banner-bg.jpg) no-repeat center center;
     background-size: cover;
 }
 
-.banner h2, .banner2 h2 {
+.banner {
+    padding: 100px 0;
+    color: #f8f8f8;
+    background: url(../img/banner.jpg) no-repeat center center;
+    background-size: cover;
+}
+
+.banner h2, .banner-alt h2 {
     margin: 0;
     text-shadow: 2px 2px 3px rgba(0,0,0,0.6);
     font-size: 3em;
 }
 
-.banner, .banner2 ul {
+.banner ul, .banner-alt ul {
     margin-bottom: 0;
-}
-
-.banner2 {
-    padding: 100px 0;
-    color: #f8f8f8;
-    background: url(../img/banner2.jpg) no-repeat center center;
-    background-size: cover;
 }
 
 .banner-social-buttons {
